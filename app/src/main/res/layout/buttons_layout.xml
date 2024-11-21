@@ -20,6 +20,7 @@
             android:layout_columnWeight="1"
 
             android:layout_margin="3dp"
+            android:backgroundTint="@android:color/darker_gray"
             android:onClick="borrar"
             android:text="CA"
             android:textSize="24sp" />
@@ -33,6 +34,7 @@
             android:layout_columnWeight="1"
 
             android:layout_margin="3dp"
+            android:backgroundTint="@android:color/darker_gray"
             android:onClick="borrar"
             android:text="C"
             android:textSize="24sp" />
@@ -46,6 +48,7 @@
             android:layout_columnWeight="1"
 
             android:layout_margin="3dp"
+            android:backgroundTint="@android:color/darker_gray"
             android:onClick="cambiarOperador"
             android:text="%"
             android:textSize="24sp" />
@@ -58,6 +61,7 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
+            android:backgroundTint="@android:color/holo_orange_dark"
             android:onClick="cambiarOperador"
             android:text="÷"
             android:textSize="24sp" />
@@ -70,12 +74,11 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
             android:onClick="seleccionarNumero"
             android:text="7"
-            android:textColor="#673AB7"
+            android:textColor="@color/white"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
             app:strokeWidth="2dp" />
 
         <Button
@@ -86,13 +89,12 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
 
             android:onClick="seleccionarNumero"
             android:text="8"
-            android:textColor="#673AB7"
+            android:textColor="@color/white"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
             app:strokeWidth="2dp" />
 
         <Button
@@ -103,13 +105,12 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
 
             android:onClick="seleccionarNumero"
             android:text="9"
-            android:textColor="#673AB7"
+            android:textColor="@color/white"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
             app:strokeWidth="2dp" />
 
         <Button
@@ -121,6 +122,7 @@
             android:layout_columnWeight="1"
 
             android:layout_margin="3dp"
+            android:backgroundTint="@android:color/holo_orange_dark"
             android:onClick="cambiarOperador"
             android:text="X"
             android:textSize="24sp" />
@@ -133,13 +135,12 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
 
             android:onClick="seleccionarNumero"
             android:text="4"
-            android:textColor="#673AB7"
+            android:textColor="@color/white"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
             app:strokeWidth="2dp" />
 
         <Button
@@ -150,13 +151,12 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
 
             android:onClick="seleccionarNumero"
             android:text="5"
-            android:textColor="#673AB7"
+            android:textColor="@color/white"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
             app:strokeWidth="2dp" />
 
         <Button
@@ -167,13 +167,11 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
 
             android:onClick="seleccionarNumero"
             android:text="6"
-            android:textColor="#673AB7"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
             app:strokeWidth="2dp" />
 
         <Button
@@ -185,6 +183,7 @@
             android:layout_columnWeight="1"
 
             android:layout_margin="3dp"
+            android:backgroundTint="@android:color/holo_orange_dark"
             android:onClick="cambiarOperador"
             android:text="-"
             android:textSize="24sp" />
@@ -197,13 +196,12 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
 
             android:onClick="seleccionarNumero"
             android:text="1"
-            android:textColor="#673AB7"
+            android:textColor="@color/white"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
             app:strokeWidth="2dp" />
 
         <Button
@@ -213,13 +211,12 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
 
             android:onClick="seleccionarNumero"
             android:text="2"
-            android:textColor="#673AB7"
+            android:textColor="@color/white"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
             app:strokeWidth="2dp" />
 
         <Button
@@ -229,13 +226,12 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
 
             android:onClick="seleccionarNumero"
             android:text="3"
-            android:textColor="#673AB7"
+            android:textColor="@color/white"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
             app:strokeWidth="2dp" />
 
         <Button
@@ -246,6 +242,7 @@
             android:layout_columnWeight="1"
 
             android:layout_margin="3dp"
+            android:backgroundTint="@android:color/holo_orange_dark"
             android:onClick="cambiarOperador"
             android:text="+"
             android:textSize="24sp" />
@@ -258,13 +255,12 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
 
             android:onClick="seleccionarNumero"
             android:text="."
-            android:textColor="#673AB7"
+            android:textColor="@color/white"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
             app:strokeWidth="2dp" />
 
         <Button
@@ -275,13 +271,12 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/black"
 
             android:onClick="seleccionarNumero"
             android:text="0"
-            android:textColor="#673AB7"
+            android:textColor="@color/white"
             android:textSize="24sp"
-            app:strokeColor="#673AB7"
             app:strokeWidth="2dp" />
 
         <Button
@@ -294,6 +289,7 @@
 
             android:layout_columnWeight="2"
             android:layout_margin="3dp"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:onClick="igual"
             android:text="="
             android:textSize="24sp" />
